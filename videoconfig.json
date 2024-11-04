@@ -1,0 +1,8 @@
+{
+    "src_url":"rtsp://admin:Aa12345678@192.168.1.16//Streaming/Channels/1",
+    "dst_url":"rtmp://192.168.1.144:1935/live/test2",
+    "websocket_url": "ws://192.168.1.144:7610",
+    "cmake_path": "E:\\PycharmProject\\service\\xinluo\\vehicle\\cmake-build-release",
+    "uuid":1,
+    "debug":1
+}

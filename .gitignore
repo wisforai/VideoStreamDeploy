@@ -1,0 +1,13 @@
+.idea
+build
+cmake-build-release
+dist
+models
+person.MP4
+requirements.txt
+test.py
+test1.py
+video_service.py
+service.spec
+setting.json
+output.txt
