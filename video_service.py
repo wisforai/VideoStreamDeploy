@@ -129,8 +129,8 @@ async def deploy(person_deploy_handle, height, width, uuid, websocket):
                 current_id = []
                 _, buffer = cv2.imencode('.jpg', batch_frames[i])
                 origin_img_base64 = base64.b64encode(buffer).decode('utf-8')
-                _, buffer = cv2.imencode('.jpg', batch_frames[i])
-                result_img_base64 = base64.b64encode(buffer).decode('utf-8')
+                _, buffer2 = cv2.imencode('.jpg', image)
+                result_img_base64 = base64.b64encode(buffer2).decode('utf-8')
                 await websocket.send(
                     json.dumps(
                         {"origin_img_base64": origin_img_base64,
